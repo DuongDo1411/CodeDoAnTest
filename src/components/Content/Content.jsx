@@ -69,7 +69,7 @@ const Content = () => (
             <div className="icon">
               <i className="fab fa-github"></i>
             </div>
-            <span>Github</span>
+            <span>Do An nhom 7</span>
           </a>
           <a
             className="button"
