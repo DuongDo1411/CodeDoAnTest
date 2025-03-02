@@ -17,14 +17,13 @@ const Service = () => (
         <h3>
           <FormattedMessage
             id="design"
-            defaultMessage="ADesign UX/UIboult me"
+            defaultMessage="A Design UX/UI aboult me"
           />
         </h3>
         <p>
           <FormattedMessage
             id="design-info"
-            defaultMessage="Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website"
-          />
+            defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."          />
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="300">
@@ -35,8 +34,7 @@ const Service = () => (
         <p>
           <FormattedMessage
             id="development-info"
-            defaultMessage="Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website."
-          />
+            defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."          />
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="400">
@@ -71,8 +69,7 @@ const Service = () => (
         <p>
           <FormattedMessage
             id="seo-info"
-            defaultMessage="Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines"
-          />
+            defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."          />
         </p>
       </div>
       <div className="columns" data-aos="fade-up" data-aos-delay="700">
@@ -86,8 +83,7 @@ const Service = () => (
         <p>
           <FormattedMessage
             id="optimization-info"
-            defaultMessage="Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website"
-          />
+            defaultMessage="Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc."          />
         </p>
       </div>
     </div>
