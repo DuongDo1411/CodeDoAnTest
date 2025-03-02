@@ -56,7 +56,7 @@ const Header = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          <span>Do An Nhom 7</span>
+          <span>Do An Nhom 10</span>
         </p>
       </NavLink>
 
