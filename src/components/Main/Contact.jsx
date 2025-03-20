@@ -23,7 +23,7 @@ const Contact = () => (
 
     <div className="icons">
       <a
-        href="mailto:estebancarrizo619@gmail.com"
+        href="mailto:duongdokimma@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in">
@@ -36,20 +36,8 @@ const Contact = () => (
         </div>
         <div className="text">Gmail</div>
       </a>
-      {/* <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-whatsapp"></span>
-                </div>
-                <div className="text">
-                    Whatsapp
-                </div>
-            </a> */}
       <a
-        href="https://www.instagram.com/nahuelcarrizolc/"
+        href="https://www.instagram.com/akainuuzzz/"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in">
@@ -62,36 +50,8 @@ const Contact = () => (
         </div>
         <div className="text">Instagram</div>
       </a>
-      {/* <a
-        href="https://t.me/estebanU20"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-aos="zoom-in">
-        <div className="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span className="fab fa-telegram"></span>
-        </div>
-        <div className="text">telegram</div>
-      </a> */}
-      {/* <a
-        href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-aos="zoom-in">
-        <div className="layer">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span className="fab fa-linkedin-in"></span>
-        </div>
-        <div className="text">Linkedin</div>
-      </a> */}
       <a
-        href="https://github.com/Nahuel61920/"
+        href="https://github.com/DuongDo1411"
         target="_blank"
         rel="noopener noreferrer"
         data-aos="zoom-in">

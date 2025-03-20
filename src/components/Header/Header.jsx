@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
+import EN from "../../img/US.png";
+import VN from "../../img/VN.png";
 import "./Header.css";
 /* ReactScroll */
 import { Link } from "react-scroll";
 
 /* React router */
 import { NavLink } from "react-router-dom";
-
-/* DarkMode */
-import DarkMode from "../DarkMode/DarkMode";
 
 /* Language */
 import { FormattedMessage } from "react-intl";
@@ -30,22 +29,7 @@ const Header = () => {
     };
   };
 
-  //Theme temp
-  let clickedClass = "clicked";
-  const body = document.body;
-  const lightTheme = "light";
-  const darkTheme = "dark";
-  let theme;
-
-  if (localStorage) {
-    theme = localStorage.getItem("theme");
-  }
-
-  if (theme === lightTheme || theme === darkTheme) {
-    body.classList.add(theme);
-  } else {
-    body.classList.add(darkTheme);
-  }
+  document.body.classList.add("dark");
 
   return (
     <header className="site-header">
@@ -76,22 +60,19 @@ const Header = () => {
         <Link to="contactos" spy={true} offset={-150} href="#contactos">
           <FormattedMessage id="contact" defaultMessage="Contact" />
         </Link>
-        {/* <div id="buttons">
+        <div id="buttons">
           <img
             onClick={() => idioma.selectLanguage("en-US")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png"
-            alt="EEUU"
+            src={EN}
+            alt="English"
           />
           <img
-            onClick={() => idioma.selectLanguage("es-ES")}
-            src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png"
-            alt="España"
+            onClick={() => idioma.selectLanguage("vi-VN")}
+            src={VN}
+            alt="VietNamese"
           />
-        </div> */}
+        </div>
       </nav>
-      {/* <div className="switch" id="switch">
-        <DarkMode />
-      </div> */}
       <div></div>
     </header>
   );

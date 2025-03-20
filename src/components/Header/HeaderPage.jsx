@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
+import EN from "../../img/US.png";
+import VN from "../../img/VN.png";
 import "./Header.css";
 
 /* React router */
 import { NavLink } from "react-router-dom";
-
-/* DarkMode */
-import DarkMode from "../DarkMode/DarkMode";
 
 /* Language */
 import { FormattedMessage } from "react-intl";
@@ -27,6 +26,8 @@ const HeaderPage = () => {
       navbar.classList.remove("activar");
     };
   };
+
+  document.body.classList.add("dark");
 
   return (
     <header className="site-header">
@@ -54,14 +55,19 @@ const HeaderPage = () => {
         <NavLink to="/project" offset={-150} duration={500}>
           <FormattedMessage id="projects" defaultMessage="Projects" />
         </NavLink>
-        {/* <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div> */}
+        <div id="buttons">
+          <img
+            onClick={() => idioma.selectLanguage("en-US")}
+            src={EN}
+            alt="Enlish"
+          />
+          <img
+            onClick={() => idioma.selectLanguage("vi-VN")}
+            src={VN}
+            alt="Vietnamese"
+          />
+        </div>
       </nav>
-      {/* <div className="switch" id="switch">
-        <DarkMode />
-      </div> */}
       <div></div>
     </header>
   );

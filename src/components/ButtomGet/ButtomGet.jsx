@@ -7,10 +7,10 @@ import { FormattedMessage } from "react-intl";
 export const ButtomGet = () => {
   return (
     <button className="cssbuttons-io-button">
-      {/* <FormattedMessage id="btn-know-more" defaultMessage="Read more" />
+      <FormattedMessage id="btn-know-more" defaultMessage="Read more" />
       <div className="icon">
         <Icon />
-      </div> */}
+      </div>
     </button>
   );
 };

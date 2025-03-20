@@ -22,28 +22,22 @@ const Footer = () => {
         </div>
         <div className="redes-sociales">
           <a
-            href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/"
-            target="_blank"
-            rel="noopener noreferrer">
-            <i className="fab fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/Nahuel61920/"
+            href="https://github.com/DuongDo1411"
             target="_blank"
             rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://www.instagram.com/nahuelcarrizolc/"
+            href="https://www.instagram.com/akainuuzzz/"
             target="_blank"
             rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5493815360966"
+            href="https://www.facebook.com/profile.php?id=100026028642349&locale=vi_VN"
             target="_blank"
             rel="noopener noreferrer">
-            <i className="fab fa-whatsapp"></i>
+            <i className="fab fa-facebook"></i>
           </a>
         </div>
       </div>

@@ -6,13 +6,13 @@ import HeaderPage from "../../components/Header/HeaderPage";
 import Footer from "../../components/Footer/Footer";
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
-import cv from "../../cv/cv.pdf";
+import cv from "../../cv/CV_VuLeThaiDuong.pdf";
 
 /* Multi idioma */
 import { FormattedMessage } from "react-intl";
 
 /* Img */
-import imgabout from "../../img/home.jpg";
+import imgabout from "../../img/home.png";
 
 const About = () => {
   function readMore() {
@@ -37,23 +37,23 @@ const About = () => {
       <main>
         <section className="sobre-mi-seccion" id="sobre-mi">
           <div className="sobre-mi-container">
-            {/* <div className="sobre-mi-img-container">
+            <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />
 
               <a
                 href={cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="cv.pdf"
+                download="CV_VuLeThaiDuong.pdf"
                 className="btn-codigo cv buttonDownload">
                 <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
               </a>
-            </div> */}
+            </div>
             <div className="sobre-mi-info">
               <p>
                 <FormattedMessage
                   id="about-info-1"
-                  defaultMessage="Hi, I'm Esteban Vu Le Thai Duong, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="Hi, I'm Vu Le Thai Duong, a student at the Phenikaa University; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
                 />
               </p>
 
@@ -231,7 +231,7 @@ const About = () => {
                   />
                 </p>
               </div>
-              <div
+              {/* <div
                 className="skill-card"
                 data-aos="flip-left"
                 data-aos-delay="300">
@@ -248,7 +248,7 @@ const About = () => {
                     defaultMessage="It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model."
                   />
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

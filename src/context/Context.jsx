@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import MensajeIngles from "./../language/en.json";
-import MensajeEspañol from "./../language/es.json";
+import MensajeEnglish from "./../language/en.json";
+import MensajeVietNamese from "./../language/vi.json";
 import { IntlProvider } from "react-intl";
 
 const langContext = React.createContext();
@@ -13,13 +13,13 @@ const LangProvider = ({ children }) => {
   if (lang) {
     localePorDefecto = lang;
 
-    if (lang === "es-ES") {
-      mensajesPorDefecto = MensajeEspañol;
+    if (lang === "vi-VN") {
+      mensajesPorDefecto = MensajeVietNamese;
     } else if (lang === "en-US") {
-      mensajesPorDefecto = MensajeIngles;
+      mensajesPorDefecto = MensajeEnglish;
     } else {
       localePorDefecto = "en-US";
-      mensajesPorDefecto = MensajeIngles;
+      mensajesPorDefecto = MensajeEnglish;
     }
   }
 
@@ -28,18 +28,18 @@ const LangProvider = ({ children }) => {
 
   const selectLanguage = (language) => {
     switch (language) {
-      case "es-ES":
-        setMensaje(MensajeEspañol);
-        setLocale("es-ES");
-        localStorage.setItem("lang", "es-ES");
+      case "vi-VN":
+        setMensaje(MensajeVietNamese);
+        setLocale("vi-VN");
+        localStorage.setItem("lang", "vi-VN");
         break;
       case "en-US":
-        setMensaje(MensajeIngles);
+        setMensaje(MensajeEnglish);
         setLocale("en-US");
         localStorage.setItem("lang", "en-US");
         break;
       default:
-        setMensaje(MensajeIngles);
+        setMensaje(MensajeEnglish);
         setLocale("en-US");
         localStorage.setItem("lang", "en-US");
     }
