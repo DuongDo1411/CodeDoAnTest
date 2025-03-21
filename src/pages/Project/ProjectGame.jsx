@@ -53,7 +53,7 @@ const ProjectGame = () => {
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
               <img
-                src={proyectsImg(`./proyecto-game-4.jpg`)}
+                src={proyectsImg(`./cs2.jpg`)}
                 alt=""
                 className="projects__img"
               />
@@ -93,10 +93,10 @@ const ProjectGame = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="eins-modal-preview">
-              <img src={proyectsImg(`./proyecto-game-4.jpg`)} alt="" />
+              <img src={proyectsImg(`./cs2.jpg`)} alt="" />
             </div>
             <div className="eins-modal-text">
-              <p>Memorama</p>
+              <p>CS2</p>
               <p>
                 <FormattedMessage
                   id="projectsGame-info-4-p2"

@@ -109,15 +109,6 @@ function ProjectApp() {
             </a>
           </div>
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal13(!estadoModal13)}>
-              <img
-                src={proyectsImgApp(`./proyecto-app-13.jpg`)}
-                alt=""
-                className="projects__img"
-              />
-            </a>
-          </div>
-          <div className="projects__item">
             <a onClick={() => cambiarEstadoModal12(!estadoModal12)}>
               <img
                 src={proyectsImgApp(`./proyecto-app-12.jpg`)}
@@ -445,47 +436,6 @@ function ProjectApp() {
                 <FormattedMessage
                   id="projectsApp-info-14-p2"
                   defaultMessage="Small music player created with javascript, allows you to play, pause, fast forward and skip the songs"
-                />
-              </p>
-              <div className="eins-modal-text-3">
-                <span>
-                  <FormattedMessage
-                    id="projects-tec"
-                    defaultMessage="Used technology:"
-                  />
-                </span>
-                <div className="eins-modal-tec">
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                    alt=""
-                  />
-                  <img
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Modal>
-
-      <Modal estado={estadoModal13} cambiarEstado={cambiarEstadoModal13}>
-        <div className="content-modal">
-          <div className="pw-content">
-            <div className="eins-modal-preview">
-              <img src={proyectsImgApp(`./proyecto-app-13.jpg`)} alt="" />
-            </div>
-            <div className="eins-modal-text">
-              <p>GitHub-User</p>
-              <p>
-                <FormattedMessage
-                  id="projectsApp-info-13-p2"
-                  defaultMessage="GitHub User Finder, allows you to display all the user information you are looking for such as Last repositories, stars, followers and followed."
                 />
               </p>
               <div className="eins-modal-text-3">

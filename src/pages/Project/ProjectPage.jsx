@@ -72,7 +72,7 @@ const Project = () => {
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
               <img
-                src={proyectsImg(`./proyecto-14.jpg`)}
+                src={proyectsImg(`./hoanghamoblie.jpg`)}
                 alt=""
                 className="projects__img"
               />
@@ -152,7 +152,7 @@ const Project = () => {
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal7(!estadoModal7)}>
               <img
-                src={proyectsImg(`./proyecto-7.jpg`)}
+                src={proyectsImg(`./animeweb.jpg`)}
                 alt=""
                 className="projects__img"
               />
@@ -192,13 +192,13 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="eins-modal-preview">
-              <img src={proyectsImg(`./proyecto-17-com.png`)} alt="" />
+              <img src={proyectsImg(`./proyecto-17-com.jpg`)} alt="" />
             </div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id="projects-info-17-p1"
-                  defaultMessage="TatoFood, page created for the sale of fast food."
+                  defaultMessage="Shoppe, page created for shopping online."
                 />
               </p>
               <p>
@@ -242,19 +242,19 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="eins-modal-preview">
-              <img src={proyectsImg(`./proyecto-14-com.png`)} alt="" />
+              <img src={proyectsImg(`./hoanghamoblie-com.jpg`)} alt="" />
             </div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id="projects-info-14-p1"
-                  defaultMessage="Justice, page created for law firm."
+                  defaultMessage="HoangHaMoblie , page created for the sale of mobile devices."
                 />
               </p>
               <p>
                 <FormattedMessage
                   id="projects-info-14-p2"
-                  defaultMessage="Focused on showing the client the value, experience and professionalism of the lawyers they can hire, choosing the category of their specific case."
+                  defaultMessage="Designed so that the customer can choose the mobile device of their choice, since it has a wide variety of brands and models. The page also has a night mode for more comfort."
                 />
               </p>
 
@@ -693,19 +693,19 @@ const Project = () => {
         <div className="content-modal">
           <div className="pw-content">
             <div className="eins-modal-preview">
-              <img src={proyectsImg(`./proyecto-7-com.png`)} alt="" />
+              <img src={proyectsImg(`./animeweb-com.jpg`)} alt="" />
             </div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id="projects-info-7-p1"
-                  defaultMessage="Power engine, is a car sales website."
+                  defaultMessage="Animevietsub.com , this is a website for watching anime."
                 />
               </p>
               <p>
                 <FormattedMessage
                   id="projects-info-7-p2"
-                  defaultMessage="Developed so that the customer can purchase the car of their dreams, it uses a slider system in many of its sections to facilitate the interaction of the page with users."
+                  defaultMessage="It offers a wide variety of anime, both recent releases and community favorites, it also boasts movies of the genre in question."
                 />
               </p>
 
