@@ -8,7 +8,7 @@ import { ButtomGet } from "../ButtomGet/ButtomGet";
 import { FormattedMessage } from "react-intl";
 
 const About = () => (
-  <section className="sobre-mi" id="sobre-mi">
+  <section className="about-me" id="about-me">
     <h2 className="heading">
       <FormattedMessage id="about" defaultMessage="About me" />
     </h2>
@@ -225,7 +225,7 @@ const About = () => (
             <img
               alt="photoshop"
               className="icons-skils"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
               title="Photoshop"
             />
             <h5>Photoshop</h5>

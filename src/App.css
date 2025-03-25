@@ -71,10 +71,10 @@ main,
 .loader span:nth-child(2) {
   color: var(--green);
   -webkit-text-stroke: 1px var(--green);
-  animation: nahuel61920 3s ease-in-out infinite;
+  animation: doannhom7 3s ease-in-out infinite;
 }
 
-@keyframes nahuel61920 {
+@keyframes doannhom7 {
   0%,
   100% {
     clip-path: polygon(

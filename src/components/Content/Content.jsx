@@ -10,9 +10,7 @@ import { FormattedMessage } from "react-intl";
 
 const Content = () => (
   <div className="contenido">
-    {/* <ParticleHeaderBg /> */}
-
-    <section className="inicio" id="inicio">
+    <section className="start" id="start">
       <div className="titulo">
         <p data-aos="fade-up" data-aos-delay="600">
           <FormattedMessage id="greeting" defaultMessage="Hello" />
@@ -24,40 +22,6 @@ const Content = () => (
           <FormattedMessage id="rol" defaultMessage="Full-stack developer" />
         </p>
 
-        <div className="redes-sociales">
-          <a
-            href="https://github.com/Nahuel61920/"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="fade-up"
-            data-aos-delay="1400">
-            <i className="fab fa-github"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/nahuelcarrizolc/"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="fade-up"
-            data-aos-delay="1600">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100026028642349&locale=vi_VN"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="fade-up"
-            data-aos-delay="1600">
-            <i className="fab fa-facebook"></i>
-          </a>
-          <a
-            href="https://youtube.com/@oduong376?si=7rgcnofZAryJ-GH0"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="fade-up"
-            data-aos-delay="1600">
-            <i className="fab fa-youtube"></i>
-          </a>
-        </div>
         <div className="wrapper">
           <a
             className="button"
@@ -109,9 +73,9 @@ const Content = () => (
           </a>
         </div>
 
-        {/* <Link to="sobre-mi" href="#sobre-mi">
+        <Link to="about-me" href="#about-me">
           <div className="scroll-down"></div>
-        </Link> */}
+        </Link>
       </div>
     </section>
   </div>

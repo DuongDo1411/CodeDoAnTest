@@ -45,10 +45,10 @@ const Header = () => {
       </NavLink>
 
       <nav className="navbar">
-        <Link to="inicio" spy={true} offset={-150} href="#inicio">
+        <Link to="start" spy={true} offset={-150} href="#start">
           <FormattedMessage id="home" defaultMessage="Home" />
         </Link>
-        <Link to="sobre-mi" spy={true} offset={-150} href="#sobre-mi">
+        <Link to="about-me" spy={true} offset={-150} href="#about-me">
           <FormattedMessage id="about" defaultMessage="About me" />
         </Link>
         <Link to="servicios" spy={true} offset={-150} href="#servicios">

@@ -1,52 +1,52 @@
 import React, { useState } from "react";
-import MensajeEnglish from "./../language/en.json";
-import MensajeVietNamese from "./../language/vi.json";
+import EnglishMessages from "./../language/en.json";
+import VietnameseMessages from "./../language/vi.json";
 import { IntlProvider } from "react-intl";
 
 const langContext = React.createContext();
 
 const LangProvider = ({ children }) => {
-  let localePorDefecto;
-  let mensajesPorDefecto;
+  let defaultLocale;
+  let defaultMessages;
   const lang = localStorage.getItem("lang");
 
   if (lang) {
-    localePorDefecto = lang;
+    defaultLocale = lang;
 
     if (lang === "vi-VN") {
-      mensajesPorDefecto = MensajeVietNamese;
+      defaultMessages = VietnameseMessages;
     } else if (lang === "en-US") {
-      mensajesPorDefecto = MensajeEnglish;
+      defaultMessages = EnglishMessages;
     } else {
-      localePorDefecto = "en-US";
-      mensajesPorDefecto = MensajeEnglish;
+      defaultLocale = "en-US";
+      defaultMessages = EnglishMessages;
     }
   }
 
-  const [mensaje, setMensaje] = useState(mensajesPorDefecto);
-  const [locale, setLocale] = useState(localePorDefecto);
+  const [messages, setmessages] = useState(defaultMessages);
+  const [locale, setLocale] = useState(defaultLocale);
 
   const selectLanguage = (language) => {
     switch (language) {
       case "vi-VN":
-        setMensaje(MensajeVietNamese);
+        setmessages(VietnameseMessages);
         setLocale("vi-VN");
         localStorage.setItem("lang", "vi-VN");
         break;
       case "en-US":
-        setMensaje(MensajeEnglish);
+        setmessages(EnglishMessages);
         setLocale("en-US");
         localStorage.setItem("lang", "en-US");
         break;
       default:
-        setMensaje(MensajeEnglish);
+        setmessages(EnglishMessages);
         setLocale("en-US");
         localStorage.setItem("lang", "en-US");
     }
   };
   return (
     <langContext.Provider value={{ selectLanguage: selectLanguage }}>
-      <IntlProvider locale={locale} messages={mensaje}>
+      <IntlProvider locale={locale} messages={messages}>
         {children}
       </IntlProvider>
     </langContext.Provider>

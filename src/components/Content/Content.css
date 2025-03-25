@@ -9,25 +9,25 @@
   background-size: cover;
 }
 
-.inicio {
+.start {
   display: flex;
   justify-content: center;
 }
 
-.inicio .titulo {
+.start .titulo {
   margin: 20rem auto 0 auto;
   text-align: center;
   z-index: 200 !important;
 }
 
-.inicio .titulo p {
+.start .titulo p {
   font-size: 3.5rem;
   color: var(--white);
   position: relative;
   font-weight: 600;
 }
 
-.inicio .titulo h1 {
+.start .titulo h1 {
   font-size: 4.5rem;
   color: var(--yellow);
 }
@@ -180,11 +180,11 @@
     min-height: 600px;
   }
 
-  .inicio .titulo p {
+  .start .titulo p {
     font-size: 3.5rem;
   }
 
-  .inicio .titulo h1 {
+  .start .titulo h1 {
     font-size: 4rem;
   }
 }
@@ -204,11 +204,11 @@
     min-height: 500px;
   }
 
-  .inicio .titulo p {
+  .start .titulo p {
     font-size: 3rem;
   }
 
-  .inicio .titulo h1 {
+  .start .titulo h1 {
     font-size: 3.5rem;
   }
   .scroll-down {

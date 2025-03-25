@@ -461,9 +461,9 @@ body.dark .footer .site-footer .redes-sociales a {
   color: var(--white);
 }
 
-/********************** Sobre-mi-seccion **********************/
+/********************** about-me-seccion **********************/
 
-body.dark .sobre-mi-info p {
+body.dark .about-me-info p {
   color: var(--light-color);
 }
 

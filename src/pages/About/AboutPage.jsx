@@ -32,13 +32,11 @@ const About = () => {
     <div>
       <HeaderPage />
 
-      {/* <ParticleBackground /> */}
-
       <main>
-        <section className="sobre-mi-seccion" id="sobre-mi">
-          <div className="sobre-mi-container">
-            <div className="sobre-mi-img-container">
-              <img src={imgabout} alt="" className="sobre-mi-img" />
+        <section className="about-me-seccion" id="about-me">
+          <div className="about-me-container">
+            <div className="about-me-img-container">
+              <img src={imgabout} alt="" className="about-me-img" />
 
               <a
                 href={cv}
@@ -49,7 +47,7 @@ const About = () => {
                 <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
               </a>
             </div>
-            <div className="sobre-mi-info">
+            <div className="about-me-info">
               <p>
                 <FormattedMessage
                   id="about-info-1"

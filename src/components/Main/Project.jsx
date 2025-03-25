@@ -289,12 +289,6 @@ const Project = () => {
         </Swiper>
         <div className="swiper-pagination"></div>
       </div>
-      {/* <Link className="custom-btn btn-codigo portafolio-btn" to="/project">
-                <FormattedMessage
-                    id='btn-more-projects'
-                    defaultMessage='More projects'
-                />
-            </Link> */}
       <div className="portafolio-btn">
         <Link to="/project">
           <ButtomGet />

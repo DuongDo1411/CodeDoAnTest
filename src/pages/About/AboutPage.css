@@ -109,7 +109,7 @@ section .row .columns {
   border-radius: 0.5rem;
 }
 
-#sobre-mi .row {
+#about-me .row {
   overflow-x: hidden !important;
 }
 
@@ -152,7 +152,7 @@ section .row .columns .mas-info {
   display: flex;
 }
 
-.sobre-mi .row .columns a {
+.about-me .row .columns a {
   margin: 2rem 1rem 1rem 0;
 }
 
@@ -196,9 +196,9 @@ section .row .columns .skill img:hover {
   transform: scale(1.2);
 }
 
-/********************** Sobre-mi-page **********************/
+/********************** about-me-page **********************/
 
-.sobre-mi-seccion {
+.about-me-seccion {
   width: 100%;
   padding-top: 7rem;
   position: relative;
@@ -208,13 +208,13 @@ section .row .columns .skill img:hover {
   overflow: hidden !important;
 }
 
-.sobre-mi-container {
+.about-me-container {
   display: grid;
   grid-template-columns: 30% 68%;
   grid-gap: 2rem;
 }
 
-.sobre-mi-img-container {
+.about-me-img-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -222,7 +222,7 @@ section .row .columns .skill img:hover {
   -webkit-align-items: flex-end;
 }
 
-.sobre-mi-info p {
+.about-me-info p {
   color: #000;
   font-size: 1.7rem;
   line-height: 2;
@@ -230,11 +230,11 @@ section .row .columns .skill img:hover {
   padding-bottom: 1rem;
 }
 
-.sobre-mi-info .btn-info {
+.about-me-info .btn-info {
   display: none;
 }
 
-.sobre-mi-img {
+.about-me-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -294,7 +294,7 @@ section .row .columns .skill img:hover {
     margin: 1.5rem 2rem;
   }
 
-  .sobre-mi-container {
+  .about-me-container {
     grid-template-columns: 50% 50%;
   }
 
@@ -348,7 +348,7 @@ section .row .columns .skill img:hover {
     margin-left: 0;
   }
 
-  .sobre-mi-container {
+  .about-me-container {
     display: flex;
     flex-direction: column;
   }
@@ -374,16 +374,16 @@ section .row .columns .skill img:hover {
     transform: translate(0px, -90px);
   }
 
-  .sobre-mi-info .btn-info {
+  .about-me-info .btn-info {
     display: flex;
     justify-content: center;
   }
 
-  .sobre-mi-info .hide {
+  .about-me-info .hide {
     display: none;
   }
 
-  .sobre-mi-info .show {
+  .about-me-info .show {
     display: block;
   }
 
